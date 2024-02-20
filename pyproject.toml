@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.10"
 pyelftools = "^0.30"
 
+[tool.poetry.scripts]
+elfextract = 'elfextract.main:main'
 
 [build-system]
 requires = ["poetry-core"]
