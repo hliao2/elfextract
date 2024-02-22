@@ -27,3 +27,9 @@ elfextract -f <funcs> <file>
 ```
 
 where `<funcs>` is a list of functions separated by comma.
+
+## List all functions
+
+```
+elfextract -l <file>
+```
