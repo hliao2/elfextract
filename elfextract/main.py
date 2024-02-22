@@ -56,7 +56,7 @@ class ListAction(Action):
     """A list of argument"""
 
     def __call__(self, parser, namespace, values, option_string=None):
-        if isinstance(values, list):
+        if not isinstance(values, list):
             values = values.split(",")
         v = getattr(namespace, self.dest)
         if v is not None:
