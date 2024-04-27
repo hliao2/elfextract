@@ -6,7 +6,7 @@ authors = ["Michael Liao <michael.hliao@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 pyelftools = "^0.30"
 
 [tool.poetry.scripts]
